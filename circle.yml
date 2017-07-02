@@ -1,7 +1,8 @@
 machine:
   timezone:
     America/Los_Angeles
-
+ java:
+    version: openjdk7
 dependencies:
 pre:
 - git clone https://github.com/devopsfolks/podam.git
